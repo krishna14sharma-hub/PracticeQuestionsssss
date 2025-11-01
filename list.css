@@ -1,0 +1,33 @@
+/* custom style for tbe filled heart */
+.favorite-icon{
+    color : rgb(269 , 68 , 68) ; /* red color for filled heart */
+    font-weight : 700 ;
+    transform : scale(1.2) /* slightly increase size when filled */
+}
+
+.filled{
+     color : rgb(269 , 68 , 68) ; /* red color for filled heart */
+    font-weight : 700 ;
+    transform : scale(1.2) /* slightly increase size when filled */
+}
+
+.favorite-icon{
+    /*  smooth transition for visual feedback */
+    transition: all 0.2 ease-in-out;
+    cursor : pointer ;
+    border : none ;
+    background : none ;
+    font-size : 1.5rem;
+    line-height :1 ; /* ensure vertical alignment */
+    padding :  0.25rem ;
+    margin-left : 0.5rem;
+}
+
+/*  styling for the main content area */
+
+.content-container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items : #f7f9fb ;
+}
